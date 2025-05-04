@@ -20,7 +20,7 @@ const prefecturalCapital: ({
     problem_type: "write",
     max_point: 10,
     answer: { name: "47", point: 10 },
-    image: "/problem1.png",
+    image: "/sat/problem1.png",
   },
   {
     id: "2",
