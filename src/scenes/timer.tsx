@@ -5,7 +5,7 @@ import prefecturalCapital from "../quiz";
 import { useDispatch } from "react-redux";
 import { finishProblem } from "../actions";
 
-const TIME_LIMIT = 120;
+const TIME_LIMIT = 10;
 const Timer = () => {
 	const problemID = useSelector((state: RootState) => state.counterProblem);
 	const [timer, setTimer] = useState(0);

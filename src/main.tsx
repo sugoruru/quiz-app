@@ -11,7 +11,7 @@ export function Main() {
 	const problemID = useSelector((state: RootState) => state.counterProblem);
 	return (
 		<>
-			<h1 className="title">クイズ</h1>
+			<h1 className="title">SAT</h1>
 			<Timer />
 			{problemID === 0 && <StartScene />}
 			{1 <= problemID && problemID <= prefecturalCapital.length && (
